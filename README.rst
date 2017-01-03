@@ -40,13 +40,13 @@ You can install these two functions using pip:
 
 .. code-block:: console
 
-   pip install -e git+ssh://git@github.com/alexwlchan/timers.git
+   $ pip install -e git+ssh://git@github.com/alexwlchan/timers.git
 
-or with `pipsi <https://github.com/mitsuhiko/pipsi>`_
+or with `pipsi <https://github.com/mitsuhiko/pipsi>`_:
 
 .. code-block:: console
 
-   pipsi install -e git+ssh://git@github.com/alexwlchan/timers.git#egg=timers
+   $ pipsi install -e git+ssh://git@github.com/alexwlchan/timers.git#egg=timers
 
 This module runs in Python 2.7 or Python 3.3+.
 
