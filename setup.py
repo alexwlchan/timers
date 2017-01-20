@@ -18,7 +18,7 @@ long_description = codecs.open(README, encoding='utf-8').read()
 
 setup(
     name='timers',
-    version='1.0.0',
+    version='1.1.0',
     description='A command-line timer and countdown clock',
     long_description=long_description,
     url='https://github.com/alexwlchan/timers',
@@ -50,6 +50,7 @@ setup(
         'console_scripts': [
             'countdown=timers:countdown',
             'stopwatch=timers:stopwatch',
+            'timer=timers:stopwatch',
         ],
     },
 )
